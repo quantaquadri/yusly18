@@ -406,12 +406,13 @@ button,
 }
 
 .navbar-brand {
-  font-size: 20px;
+  font-size: 30px;
   color: white;
 }
 
 .navbar-nav li a {
   color: #e6e6e6;
+  font-size: 16px;
 }
 
 .navbar-nav li a:hover, .navbar-nav li a:focus {
@@ -438,13 +439,13 @@ button,
 }
 
 .navbar-toggle {
-  border: 2px solid #f06eaa;
+  border: 2px solid #912847;
   border-radius: 6px;
   padding: 6px 10px;
 }
 
 .icon-bar {
-  background: #f06eaa;
+  background: #912847;
 }
 
 /* ===================================================== */
@@ -537,7 +538,7 @@ button,
 /* ===================================================== */
 .button {
   display: inline-block;
-  background: #f06eaa;
+  background: #912847;
   color: white;
   font-size: 14px;
   text-transform: uppercase;
