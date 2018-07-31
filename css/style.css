@@ -347,11 +347,14 @@ a:hover, a:focus {
 [type='email'],
 textarea {
   font-family: "Catamaran", sans-serif;
-  color: #212020;
-  background: #edecec;
+  /* color: #212020; */
+  /* background: #edecec; */
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(222, 222, 222, 0.2);
   padding: 15px;
   margin-bottom: 15px;
-  border: 2px solid #f59cc5;
+  /* border: 2px solid #f59cc5; */
   border-radius: 6px;
 }
 
@@ -627,7 +630,7 @@ button,
   -ms-flex-order: 2;
   order: 2;
   width: 80%;
-  min-height: 500px;
+  /* min-height: 500px; */
   overflow: hidden;
   background: #f06eaa;
 }
@@ -748,13 +751,16 @@ button,
 /* 4.2 CALL TO ACTION ACTION */
 /* ===================================================== */
 #call-to-action {
-  position: relative;
-  padding: 100px 0;
-  background-color: #e11774;
+  background: url(https://res.cloudinary.com/dzomirrk1/image/upload/v1533043782/FolaShay/webimages/rstvp.png) no-repeat center center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  min-height: 770px;
+  position: relative;
+}
+
+#cals {
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
 }
 
 #call-to-action p {
@@ -838,6 +844,7 @@ button,
 /* ===================================================== */
 #wedding-events {
   padding: 70px 0 100px;
+  background-color: #fafafa;
 }
 
 #wedding-events .event.ceremony {
@@ -880,6 +887,7 @@ button,
 #wedding-rspv {
   text-align: center;
   padding: 100px 0;
+  
 }
 
 #wedding-rspv main {
@@ -1123,7 +1131,7 @@ video.banner-video {
     margin-bottom: 30px;
   }
   #wedding-events .event-photo {
-    min-height: 300px;
+    /* min-height: 300px; */
     max-height: 300px;
     height: auto;
   }
